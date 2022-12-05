@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Brick_Breaker</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Background.jpg" />
+    <None Remove="Resources\Bounce.wav" />
+    <None Remove="Resources\Break.wav" />
+    <None Remove="Resources\DropItem.wav" />
+    <None Remove="Resources\DropItemFireBall.jpg" />
+    <None Remove="Resources\DropItemLargeBall.jpg" />
+    <None Remove="Resources\DropItemLargePaddle.jpg" />
+    <None Remove="Resources\DropItemScore.jpg" />
+    <None Remove="Resources\DropItemSmallBall.jpg" />
+    <None Remove="Resources\DropItemSmallPaddle.jpg" />
+    <None Remove="Resources\DropItemSpeedDown.jpg" />
+    <None Remove="Resources\DropItemSpeedUp.jpg" />
+    <None Remove="Resources\FireBall.png" />
+    <None Remove="Resources\Gameover.wav" />
+    <None Remove="Resources\GreenBrick.jpg" />
+    <None Remove="Resources\GreenBrickCracked.jpg" />
+    <None Remove="Resources\MetalBall.png" />
+    <None Remove="Resources\OrangeBrick.jpg" />
+    <None Remove="Resources\OrangeBrickCracked.jpg" />
+    <None Remove="Resources\Paddle.jpg" />
+    <None Remove="Resources\RedBrick.jpg" />
+    <None Remove="Resources\RedBrickCracked.jpg" />
+    <None Remove="Resources\YellowBrick.jpg" />
+    <None Remove="Resources\YellowBrickCracked.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Background.jpg" />
+    <Resource Include="Resources\Bounce.wav" />
+    <Resource Include="Resources\Break.wav" />
+    <Resource Include="Resources\DropItem.wav" />
+    <Resource Include="Resources\DropItemFireBall.jpg" />
+    <Resource Include="Resources\DropItemLargeBall.jpg" />
+    <Resource Include="Resources\DropItemLargePaddle.jpg" />
+    <Resource Include="Resources\DropItemScore.jpg" />
+    <Resource Include="Resources\DropItemSmallBall.jpg" />
+    <Resource Include="Resources\DropItemSmallPaddle.jpg" />
+    <Resource Include="Resources\DropItemSpeedDown.jpg" />
+    <Resource Include="Resources\DropItemSpeedUp.jpg" />
+    <Resource Include="Resources\FireBall.png" />
+    <Resource Include="Resources\Gameover.wav" />
+    <Resource Include="Resources\GreenBrick.jpg" />
+    <Resource Include="Resources\GreenBrickCracked.jpg" />
+    <Resource Include="Resources\OrangeBrick.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\MetalBall.png" />
+    <Resource Include="Resources\OrangeBrickCracked.jpg" />
+    <Resource Include="Resources\Paddle.jpg" />
+    <Resource Include="Resources\RedBrick.jpg" />
+    <Resource Include="Resources\RedBrickCracked.jpg" />
+    <Resource Include="Resources\YellowBrick.jpg" />
+    <Resource Include="Resources\YellowBrickCracked.jpg" />
+  </ItemGroup>
+
+</Project>
